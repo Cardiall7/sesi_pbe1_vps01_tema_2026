@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Uso de IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Cadastro de Uso de IA</h1>
+        <form id="form">
+
+            <input
+                type="text"
+                id="sistema"
+                placeholder="Sistema"
+                required
+            >
+            <select id="tipo" required>
+                <option value="">Tipo</option>
+                <option value="empresa">Empresa</option>
+                <option value="escola">Escola</option>
+                <option value="pessoa">Pessoa</option>
+            </select>
+            <input
+                type="text"
+                id="finalidade"
+                placeholder="Finalidade"
+                required
+            >
+            <input
+                type="text"
+                id="tecnologia"
+                placeholder="Tecnologia"
+                required
+            >
+            <select id="risco" required>
+                <option value="">Nível de risco</option>
+                <option value="Baixo">Baixo</option>
+                <option value="Médio">Médio</option>
+                <option value="Alto">Alto</option>
+            </select>
+            <select id="revisao" required>
+                <option value="">Revisão humana?</option>
+                <option value="true">Sim</option>
+                <option value="false">Não</option>
+            </select>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p id="mensagem"></p>
+
+    </main>
+
+    <script>
+        const form = document.getElementById("form");
+        const mensagem = document.getElementById("mensagem");
+        form.addEventListener("submit", async (event) => {
+
+            event.preventDefault();
+            const dados = {
+                sistema: document.getElementById("sistema").value,
+                tipo: document.getElementById("tipo").value,
+                finalidade: document.getElementById("finalidade").value,
+                tecnologia: document.getElementById("tecnologia").value,
+                nivel_risco: document.getElementById("risco").value,
+                possui_revisao_humana:
+                    document.getElementById("revisao").value === "true"
+            };
+
+            const resposta = await fetch("http://localhost:3000/usos", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(dados)
+            });
+
+            if (resposta.ok) {
+                mensagem.innerText = "Cadastro realizado com sucesso!";
+                form.reset();
+            } else {
+                mensagem.innerText = "Erro ao cadastrar.";
+            }
+        });
+
+    </script>
+</body>
+</html>

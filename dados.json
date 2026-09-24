@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "sistema": "Assistente de atendimento",
+    "tipo": "empresa",
+    "finalidade": "Responder duvidas de clientes",
+    "tecnologia": "IA generativa",
+    "nivel_risco": "Medio",
+    "possui_revisao_humana": true
+  },
+  {
+    "id": 2,
+    "sistema": "Corretor de atividades",
+    "tipo": "escola",
+    "finalidade": "Auxiliar na correcao de exercicios",
+    "tecnologia": "Machine Learning",
+    "nivel_risco": "Baixo",
+    "possui_revisao_humana": true
+  },
+  {
+    "id": 3,
+    "sistema": "Gerador de imagens",
+    "tipo": "pessoa",
+    "finalidade": "Criar imagens para redes sociais",
+    "tecnologia": "IA generativa",
+    "nivel_risco": "Medio",
+    "possui_revisao_humana": false
+  },
+  {
+    "id": 4,
+    "sistema": "Analise de curriculos",
+    "tipo": "empresa",
+    "finalidade": "Selecionar candidatos para vagas",
+    "tecnologia": "Machine Learning",
+    "nivel_risco": "Alto",
+    "possui_revisao_humana": true
+  },
+  {
+    "id": 5,
+    "sistema": "Assistente de estudos",
+    "tipo": "pessoa",
+    "finalidade": "Ajudar em pesquisas e estudos",
+    "tecnologia": "IA generativa",
+    "nivel_risco": "Baixo",
+    "possui_revisao_humana": false
+  },
+  {
+    "sistema": "Ajudador nas provas",
+    "tipo": "alunos",
+    "finalidade": "Ajudar alunos que tiram notas baixas",
+    "tecnologia": "Ajudar a passar nas provas",
+    "nivel_risco": "Baixo",
+    "possui_revisao_humana": false,
+    "id": 7
+  },
+  {
+    "sistema": "Criar comida",
+    "tipo": "pessoa",
+    "finalidade": "Criar comidas diferentes ",
+    "tecnologia": "IA cozinheira",
+    "nivel_risco": "Baixo",
+    "possui_revisao_humana": true,
+    "id": 8
+  }
+]

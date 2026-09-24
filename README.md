@@ -23,4 +23,4 @@ Projeto simples de back-end com dados em JSON e funcionalidades CRUD para cadast
 
 ```bash
 npm install
-node server.js
+node server.js# sesi_pbe1_vps01_tema_2026
