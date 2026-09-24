@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "sistema": "Assistente de atendimento",
+    "sistema": "Assistente de telefone",
     "tipo": "empresa",
-    "finalidade": "Responder duvidas de clientes",
-    "tecnologia": "IA generativa",
+    "finalidade": "Responder clientes",
+    "tecnologia": "IA telefonica",
     "nivel_risco": "Medio",
     "possui_revisao_humana": true
   },
@@ -12,8 +12,8 @@
     "id": 2,
     "sistema": "Corretor de atividades",
     "tipo": "escola",
-    "finalidade": "Auxiliar na correcao de exercicios",
-    "tecnologia": "Machine Learning",
+    "finalidade": "Corrigir atividades",
+    "tecnologia": "IA corretora",
     "nivel_risco": "Baixo",
     "possui_revisao_humana": true
   },
@@ -21,17 +21,17 @@
     "id": 3,
     "sistema": "Gerador de imagens",
     "tipo": "pessoa",
-    "finalidade": "Criar imagens para redes sociais",
-    "tecnologia": "IA generativa",
+    "finalidade": "Criar imagens",
+    "tecnologia": "IA gera imagens",
     "nivel_risco": "Medio",
     "possui_revisao_humana": false
   },
   {
     "id": 4,
-    "sistema": "Analise de curriculos",
+    "sistema": "Analisadora de curriculos",
     "tipo": "empresa",
-    "finalidade": "Selecionar candidatos para vagas",
-    "tecnologia": "Machine Learning",
+    "finalidade": "Selecionar candidatos bons",
+    "tecnologia": "IA curriculos",
     "nivel_risco": "Alto",
     "possui_revisao_humana": true
   },
@@ -40,7 +40,7 @@
     "sistema": "Assistente de estudos",
     "tipo": "pessoa",
     "finalidade": "Ajudar em pesquisas e estudos",
-    "tecnologia": "IA generativa",
+    "tecnologia": "IA estudos",
     "nivel_risco": "Baixo",
     "possui_revisao_humana": false
   },
@@ -51,7 +51,7 @@
     "tecnologia": "Ajudar a passar nas provas",
     "nivel_risco": "Baixo",
     "possui_revisao_humana": false,
-    "id": 7
+    "id": 6
   },
   {
     "sistema": "Criar comida",
@@ -60,6 +60,6 @@
     "tecnologia": "IA cozinheira",
     "nivel_risco": "Baixo",
     "possui_revisao_humana": true,
-    "id": 8
+    "id": 7
   }
 ]
