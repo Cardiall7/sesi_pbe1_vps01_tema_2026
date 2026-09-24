@@ -21,6 +21,18 @@
 - 2 Abra o projeto no **VsCode**
 - 3 Abra o terminal e digite:
 
+---
+
+## Tecnologias
+
+- **Node.js**
+- **JavaScript**
+- **Express**
+- **VsCode**
+- **Thunder Client**
+
+---
+
 ```bash
 npm init -y
 npm install express
