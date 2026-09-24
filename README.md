@@ -1,28 +1,36 @@
 # Pesquisa de Campo - Uso de Inteligência Artificial
 
-Projeto simples de back-end com dados em JSON e funcionalidades CRUD para cadastrar usos de Inteligência Artificial.
+- GIT-1
+![GIT](https://github.com/Cardiall7/sesi_pbe1_vps01_tema_2026/blob/main/prints/GET-1.png)
 
----
+- GIT-2
+![GIT-2](https://github.com/Cardiall7/sesi_pbe1_vps01_tema_2026/blob/main/prints/GET-2.png)
 
-## Tecnologias
+- PUT
+![PUT](https://github.com/Cardiall7/sesi_pbe1_vps01_tema_2026/blob/main/prints/PUT.png)
 
-- **Node.js**
-- **JavaScript**
-- **VS Code**
-- **Thunder Client**
+- POST
+![POST](https://github.com/Cardiall7/sesi_pbe1_vps01_tema_2026/blob/main/prints/POST.png)
 
----
+- DELETE
+![DELETE](https://github.com/Cardiall7/sesi_pbe1_vps01_tema_2026/blob/main/prints/DELETE.png)
 
 ## Passos para testar
 
 - 1 Clone este repositório
-
 - 2 Abra o projeto no **VsCode**
-
 - 3 Abra o terminal e digite:
 
 ```bash
-npm install
-node server.js# sesi_pbe1_vps01_tema_2026
-# sesi_pbe1_vps01_tema_2026
-# sesi_pbe1_vps01_tema_2026
+npm init -y
+npm install express
+node server.js
+```
+
+## Cliente
+
+- Cadastro do Cliente
+![Cliente](https://github.com/Cardiall7/sesi_pbe1_vps01_tema_2026/blob/main/prints/Cadastro-IA.png)
+
+- Resultado do Cadastro
+![Resultado](https://github.com/Cardiall7/sesi_pbe1_vps01_tema_2026/blob/main/prints/clientes.png)
